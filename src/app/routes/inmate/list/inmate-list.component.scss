@@ -1,0 +1,29 @@
+@import '../../../../styles/main';
+
+.bp-md-show {
+	display: none;
+	@include respond-to($bp-md) {
+		display: table-cell;
+	}
+
+}
+
+.bp-sm-show {
+	display: none;
+	@include respond-to($bp-sm) {
+		display: table-cell;
+	}
+
+}
+
+.bp-lg-show {
+	display: none;
+	@include respond-to($bp-lg) {
+		display: table-cell;
+	}
+
+}
+
+.mat-column-actions {
+	text-align: right;
+}

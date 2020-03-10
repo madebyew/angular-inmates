@@ -1,0 +1,20 @@
+
+<div class="wrapper">
+
+	<div class="wrapper-main">
+		<div class="wrapper-main-nav">
+			<ul>
+				<li *ngFor="let navRoute of navRoutes" class="wrapper-main-nav-route-item" (click)="handleRoute(navRoute.route)">
+					<button mat-stroked-button color="primary">{{navRoute.label}}</button>
+				</li>
+				<li *ngFor="let navAction of navActions" class="wrapper-main-nav-action-item" (click)="handleAction(navAction.onClick)">
+					<button mat-stroked-button color="warn">{{navAction.label}}</button>
+				</li>
+			</ul>
+		</div>
+		<div class="wrapper-main-outlet">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+
+</div>

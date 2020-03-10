@@ -1,0 +1,72 @@
+{
+	"inmates": [
+		{
+			"id": 1,
+			"name": "Lincoln Burrows",
+			"dateOfBirth": "1979-01-01",
+			"prisonCellNumber": 101,
+			"intakeDateTime": "2019-03-01T13:00:00+00:00",
+			"locationHistory": [
+				{
+					"eventDateTime": "2019-03-10T11:30:00+00:00",
+					"location": "Gym"
+				},
+				{
+					"eventDateTime": "2019-03-10T08:15:00+00:00",
+					"location": "Hall"
+				},
+				{
+					"eventDateTime": "2019-03-10T06:30:00+00:00",
+					"location": "Cell"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Michael Scofield",
+			"dateOfBirth": "1977-02-02",
+			"prisonCellNumber": 102,
+			"intakeDateTime": "2019-03-02T14:00:00+00:00",
+			"locationHistory": [
+				{
+					"eventDateTime": "2019-03-10T08:15:00+00:00",
+					"location": "Hall"
+				},
+				{
+					"eventDateTime": "2019-03-10T06:30:00+00:00",
+					"location": "Cell"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Brad Bellick",
+			"dateOfBirth": "1967-03-03",
+			"prisonCellNumber": 103,
+			"intakeDateTime": "2019-03-03T15:00:00+00:00",
+			"locationHistory": [
+				{
+					"eventDateTime": "2019-03-10T07:20:00+00:00",
+					"location": "Kitchen"
+				},
+				{
+					"eventDateTime": "2019-03-10T05:45:00+00:00",
+					"location": "Cell"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "Theodore Bagwell",
+			"dateOfBirth": "1972-04-04",
+			"prisonCellNumber": 104,
+			"intakeDateTime": "2019-03-04T16:00:00+00:00",
+			"locationHistory": [
+				{
+					"eventDateTime": "2019-03-10T07:00:00+00:00",
+					"location": "Cell"
+				}
+			]
+		}
+	]
+}

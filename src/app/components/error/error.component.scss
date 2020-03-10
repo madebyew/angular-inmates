@@ -1,0 +1,15 @@
+
+$red: #FF0000;
+
+.error {
+	text-align: center;
+	max-width: 400px;
+	margin: 40px auto 0 auto;
+	background: $red;
+	border-left: 3px solid $red;
+	.error-content {
+		color: darken($red, 20%);
+		background: rgba(white, 90%);
+		padding: 10px;
+	}
+}

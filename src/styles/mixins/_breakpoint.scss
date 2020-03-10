@@ -1,0 +1,43 @@
+
+/**
+ * IMPORTANT:
+ * If changing a breaking size - remember to change the JS version
+ * src/functions/is-responsive-size/is-responsive-size.ts
+ */
+
+ $bp-xs: '0px';
+ $bp-sm: '520px';
+ $bp-md: '800px';
+ $bp-lg: '980px';
+ $bp-xl: '1200px';
+ 
+ 
+ @mixin respond-to($bp) {
+	 @media (min-width: $bp) {
+		 @content;
+	 }
+ }
+ 
+ @mixin respond-to-sm {
+	 @include respond-to($bp-sm) {
+		 @content;
+	 }
+ }
+ 
+ @mixin respond-to-md {
+	 @include respond-to($bp-md) {
+		 @content;
+	 }
+ }
+ 
+ @mixin respond-to-lg {
+	 @include respond-to($bp-lg) {
+		 @content;
+	 }
+ }
+ 
+ @mixin respond-to-xl {
+	 @include respond-to($bp-xl) {
+		 @content;
+	 }
+ }

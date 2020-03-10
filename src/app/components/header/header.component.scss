@@ -1,0 +1,18 @@
+@import '~@angular/material/theming';
+
+$theme: 'indigo-pink';
+
+// $accent: mat-color(mat-palette($mat-pink));
+$primary: mat-color(mat-palette($mat-indigo));
+
+.header {
+	text-align: center;
+	color: #FFF;
+	background: $primary;
+	padding: 20px;
+	h1 {
+		line-height: 1em;
+		padding: 0;
+		margin: 0;
+	}
+}
